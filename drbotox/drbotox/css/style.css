@@ -194,7 +194,7 @@ section {
   background-color: #fcdff9;
 }
 .sub-info {
-  color: #fcdff9;
+  color: #eab6e5;
   text-transform: uppercase;
   letter-spacing: 3px;
   font-family: Montserrat;
@@ -586,12 +586,12 @@ section {
 .section-features .entry-featured-image {
   margin-bottom: 30px;
 }
-.section-features .box-inner {
+.section-features .box-inner table {
   background-color: #fcdff9;
   box-shadow: 0 0 5px rgba(23, 23, 23, 0.2);
   padding: 30px 35px 30px 30px;
 }
-.section-features .box-inner h4 {
+.section-features .box-inner h4 table {
   margin-top: 0;
 }
 .section-features .detail-button {
@@ -1067,7 +1067,7 @@ section {
   font-weight: bold;
 }
 .bottom-footer .nav a:hover {
-  color: #44403f;
+  color: #eab6e5;
 }
 .bottom-footer .seperator {
   border-bottom: 1px dotted #b2b2b2;
@@ -1085,7 +1085,7 @@ section {
   display: inline-block;
 }
 .social-icon ul li a {
-  color: #44403f;
+  color: #eab6e5;
   padding-right: 20px;
   padding-left: 20px;
   position: relative;
@@ -1637,9 +1637,9 @@ section {
   .teamslider-wrap {
     height: 850px;
   }
-  .section-features .box-inner{
+  /*.section-features .box-inner{
     padding: 7px 35px 30px 30px;
-  }
+  }*/
 }
 @media (max-width: 400px) {
   /* History */
@@ -1660,13 +1660,39 @@ section {
   .section-features .h-article{
     padding: 0;
     }
-  .section-features .box-inner{
-    padding: 7px 35px 30px 30px;
-  }
+  /*.section-features .box-inner{
+    1px 14px 25px 37px;
+  }*/
 }
-table {
+
+/*.table-responsive {
   border-collapse: separate;
   border-spacing: 15px 0;
   border: 1px solid;
+}*/
+
+.table-responsive {
+    width: 100%;
+    margin-bottom: 15px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    border: 2px solid #ddd;
+    -webkit-overflow-scrolling: touch;
+  
 }
+
+.table-responsive>.table { 
+    margin-bottom: 0;
+}
+
+.table-responsive>.table>thead>tr>th, 
+.table-responsive>.table>tbody>tr>th, 
+.table-responsive>.table>tfoot>tr>th, 
+.table-responsive>.table>thead>tr>td, 
+.table-responsive>.table>tbody>tr>td, 
+.table-responsive>.table>tfoot>tr>td {
+    white-space: nowrap;
+}
+
 

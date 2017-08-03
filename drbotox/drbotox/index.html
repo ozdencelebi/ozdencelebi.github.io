@@ -26,13 +26,13 @@
 
 
 	<!-- Favicon Icon -->
-	<link rel="shortcut icon" href="img/favicon.ico">
+	<link rel="shortcut icon" href="img/logo1.png">
 	
 </head>
 <body>
 
 	<!-- HEADER -->
-	<header class="front-header" role="banner">
+	<header class="front-header" role="banner" id="home">
 
 		<div class="menu-open">
 			
@@ -52,15 +52,13 @@
 
 						<ul class="mobile-ul">
 
-							<li><a href="index.html">Hem</a></li>
+							<li><a href="#home">Hem</a></li>
 
 							<li><a href="#section-counter">Om oss</a></li>							
 
-							<li><a href="#slider">Behandlingar</a>
-									
-								
-
-							</li>
+							<li><a href="#slider">Behandlingar</a></li>
+                          
+							<li><a href="#prices">Priser</a></li>
 
 							<li><a href="#contact">contact</a></li>
 							
@@ -78,7 +76,7 @@
 				
 				<figure class="logo">
 					
-					<a href="index.html" title="logo" rel="home">
+					<a href="#home" title="logo" rel="home">
 						<img src="img/logo2.png" alt="">
 					</a>
 
@@ -92,15 +90,12 @@
 
 					<ul class="nav navbar-nav">
 
-							<li><a href="index.html">Hem</a></li>
+							<li><a href="#home">Hem</a></li>
 
 							<li><a href="#counter">Om oss</a></li>							
 
-							<li><a href="#slider">category</a>
-									
-						
-
-							</li>
+							<li><a href="#slider">category</a></li>
+                            <li><a href="#prices">Priser</a></li>
 
 							<li><a href="#contact">contact</a></li>													
 
@@ -124,7 +119,7 @@
 
 					<div class="detail-button">
 						
-						<a href="#" class="btn scrolling-btn">Details</a>
+						<a href="#counter" class="btn scrolling-btn">Details</a>
 
 					</div> <!-- end detail-button -->
 
@@ -150,7 +145,7 @@
 				
 					<figure class="logo">
 						
-						<a href="index.html" title="logo" rel="home">
+						<a href="#home" title="logo" rel="home">
 							<img src="img/logo2.png" alt="">
 						</a>
 
@@ -164,15 +159,12 @@
 
 						<ul class="nav navbar-nav">
 
-							<li><a href="index.html">hem</a></li>
+							<li><a href="#home">hem</a></li>
 
 							<li><a href="#counter">Om oss</a></li>							
 
-							<li><a href="#slider">Behandlingar</a>
-									
-							
-
-							</li>
+							<li><a href="#slider">behandlingar</a></li>
+                            <li><a href="#prices">Priser</a></li>
 
 							<li><a href="#contact">kontakt</a></li>							
 
@@ -186,9 +178,10 @@
 					
 					<div class="slip-search-wrap">
 						
-						<form action="#">
+						<form action="https://google.com/search" method="get">
 							
-							<input type="search" class="slip-search" placeholder="Search...">
+							<input type="search" class="slip-search" placeholder="Search..." value="">
+                          
 							<i class="fa fa-search"></i>
 
 						</form>
@@ -528,7 +521,7 @@
 	</section>
 	<!-- END TEAM -->
 	<!-- FEATURES -->
-	<section class="section-features">
+	<section class="section-features" id="prices">
 		
 		<div class="container">			
 			
@@ -572,7 +565,7 @@
 
 						<div class="entry-summary">
 							
-											<table>
+											<table class="table table-responsive">
     <tr>
     <th>Restylane</th>
     <th>ML</th>
@@ -689,7 +682,7 @@
 						<!--<div class="separator-box"></div> -->
 
 						<div class="entry-summary">
-						<table>
+						<table class="table table-responsive">
     <tr>
     <th>Juvederm</th>
     <th>ML</th>
@@ -776,7 +769,7 @@
 						
 					<figure class="entry-featured-image">
 						
-							<img src="img/Botox3.jpg" alt="">
+							<img src="img/botox.jpg" alt="">
 
 					</figure>
 
@@ -807,8 +800,7 @@
 						<!--<div class="separator-box"></div> -->
 
 						<div class="entry-summary">
-                          
-                          <table>
+                          <table  class="table table-responsive">
     <tr>
     <th>Område</th>
     <th>Pris</th>
@@ -845,7 +837,8 @@
   </tr>                       
                         
 </table>  
-					  
+			
+                          		  
 							
 							
 
@@ -926,10 +919,10 @@
 				</div> <!-- end stamp -->
 					
 				<h4 class="contact-form-title">
-					Write a message
+					Skicka en bokningsförfrågan
 				</h4>
 
-				<form action="#" class="form-inline">
+				<form action="mailto:celebi_89@hotmail.com" method="post" class="form-inline" enctype="text/plain">
 					
 					<input type="text" class="full-name" placeholder="Full Name">
 					<input type="text" class="subject" placeholder="Your Subject">
@@ -969,8 +962,8 @@
 			
 				<figure class="logo">
 					
-					<a href="index.html" rel="home">
-						<img src="img/logga.png" alt="logo">					
+					<a href="#home" rel="home">
+						<img src="img/logo2.png" alt="logo">					
 					</a>
 
 				</figure> <!-- end logo -->
@@ -981,13 +974,14 @@
 					
 				<nav>
 					<ul class="nav navbar-nav">
-						<li><a href="index.html">home</a></li>
+						<li><a href="#home">hem</a></li>
 
-							<li><a href="#section-counter">about us</a></li>							
+							<li><a href="#counter">om oss</a></li>
+							<li><a href="#slider">behandlingar</a></li>
+							<li><a href="#prices">priser</a></li>
+                            
 
-							
-
-							<li><a href="#contact">contact</a></li>
+							<li><a href="#contact">kontakt</a></li>
 					</ul>
 				</nav>
 
@@ -1018,7 +1012,18 @@
 	</footer>
 	<!-- END FOOTER -->
 
-	
+	<script>
+      var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map_canvas'), {
+          center: {lat: 59.6517523, lng: 16.53832},
+          zoom: 10
+        });
+      }
+    </script>
+  <!-- google maps -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBEE1G7drkVd0H-q98ajD5UtWpi0yFY4_0&callback=initMap"
+    async defer></script>
 	<!-- JQUERY -->
 	<script src="js/jquery.js"></script>
 	<script src="js/freetile.js"></script>

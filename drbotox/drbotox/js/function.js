@@ -870,7 +870,7 @@ $('.mobile-isotope').click(function(){
 /* ==============================================
 Map Calling
 =============================================== */
- function initialize() {
+ /*function initialize() {
 
   var mapCanvas = document.getElementById('map_canvas');
 
@@ -905,8 +905,8 @@ Map Calling
 
   var marker = new google.maps.Marker({
       position: myLocation,
-      map: map,
-      icon: 'img/marker.png'      
+      map: map
+      //icon: 'img/marker.png'      
   });
 
 
@@ -954,7 +954,7 @@ if($('.section-map').length){
   
 }
 
-
+*/
 /* ==============================================
 Page Loader
 =============================================== */

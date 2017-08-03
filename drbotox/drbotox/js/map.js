@@ -1,4 +1,4 @@
-window.google = window.google || {};
+/*window.google = window.google || {};
 google.maps = google.maps || {};
 (function() {
   
@@ -18,4 +18,5 @@ google.maps = google.maps || {};
   };
   var loadScriptTime = (new Date).getTime();
   getScript("js/mainmap.js");
-})();
+})(); */
+
